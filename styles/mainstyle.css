@@ -8,23 +8,23 @@ body {
 }
 
 @keyframes mainanim {
-    0% {
+    0%, 100% {
         background-color: rgb(255, 0, 0);
     }
 
-    25% {
+    20% {
         background-color: rgb(0, 255, 0);
     }
 
-    50% {
+    40% {
         background-color: rgb(0, 0, 255);
     }
 
-    75% {
-        background-color: rgb(125, 0, 0);
+    60% {
+        background-color: rgb(255, 255, 0);
     }
 
-    100% {
-        background-color: rgb(255, 0, 0);;
+    80% {
+        background-color: rgb(0, 255, 255);
     }
 }
